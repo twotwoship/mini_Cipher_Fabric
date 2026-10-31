@@ -2,7 +2,7 @@
 
 > A project to integrate standard Linux storage encryption with an FPGA AES-XTS accelerator and design custom developer verification tools
 
-**Development period: 4 weeks · Team size: 3 · Current status: No implementation or verification items completed**
+**Development period: 4 weeks · Team size: 5 ( Collaborator : :recycle:[roby238](https://github.com/roby238) ) · Current status: No implementation or verification items completed**
 
 This project implements an educational subset of a secure storage controller: Linux on the Zynq PS manages keys and storage, the PL accelerates AES-XTS, and a custom UART toolkit helps developers investigate and verify the implementation. The PS and PL together form the trusted controller in this design. The project borrows the external key non-disclosure principle from storage-device specifications; it does not implement a complete SAS/SATA self-encrypting drive or claim OCP, Opal, ISO, or FIPS compliance.
 
